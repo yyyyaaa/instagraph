@@ -1,0 +1,21 @@
+.dropitem {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-height: 50px;
+  padding: 8px 14px;
+  border-bottom: 1px solid #efefef;
+  background-color: #fff;
+
+  .content p:not(:last-child) {
+    margin-bottom: 0px;
+  }
+
+  figure img {
+    border-radius: 50%;
+  }
+}
+
+.dropitem.active {
+  background-color: #fafafa;
+}

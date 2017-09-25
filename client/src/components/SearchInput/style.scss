@@ -1,0 +1,30 @@
+.searchbox-container {
+  position: relative;
+}
+
+.searchbox {
+  position: relative;
+}
+
+.searchbox .icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.searchbox {
+  .search-icon {
+    left: calc(0.625em - 1px);
+  }
+    
+  .cross-icon {
+    display: none;
+    right: calc(0.625em - 1px);
+  }
+}
+
+.searchbox.focused .cross-icon {
+  display: inline-flex;
+}

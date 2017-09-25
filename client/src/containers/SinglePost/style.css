@@ -1,0 +1,20 @@
+.post-single > .column {
+  margin-right: -0.75rem;
+  border: 0 solid #000; }
+
+.post-single .column:last-child {
+  background-color: #fff;
+  position: relative; }
+  .post-single .column:last-child > .media {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #DAD7D7; }
+  .post-single .column:last-child > .media figure img {
+    border-radius: 50%; }
+  .post-single .column:last-child .comment-form {
+    position: absolute;
+    bottom: 2rem;
+    width: calc(100% - 0.75rem * 2); }
+
+.comments-list {
+  height: 290px;
+  overflow-y: scroll; }
